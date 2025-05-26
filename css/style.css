@@ -571,3 +571,18 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+
+/* about */
+
+.about-box {
+  background-color: #beebfd;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+.about-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
