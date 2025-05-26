@@ -27,6 +27,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -47,7 +48,11 @@
 <div class="container-xxl position-relative p-0">
     <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href="index.html" class="navbar-brand p-0">
-            <h1 class="m-0"><img src="img/ccm Pvt.Ttd(LOGO)..png" alt="Cape Comorin Logo"><i class="fa fa-video-camera me-2"></i>Cape Comorin<span class="fs-5"></span></h1>
+           <h1 class="fs-4 m-0">
+  <img src="img/ccm Pvt.Ttd(LOGO)..png" alt="Cape Comorin Logo">
+  Cape Comorin Media<span class="fs-6"> Pvt Ltd</span>
+</h1>
+
             
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -69,13 +74,26 @@
                 </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <button type="button" class="btn text-secondary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-<a href="https://capecomorinmedia.github.io/ccm/" class="btn btn-secondary text-light rounded-pill py-2 px-4 ms-3 d-flex justify-content-between align-items-center" style="min-width: 240px;">
-  <span>Cape Comorin Media</span>
-  <span class="d-flex flex-column align-items-center ms-3">
+        
+<a href="https://capecomorinmedia.github.io/ccm/"
+   class="btn text-light rounded-pill py-2 px-4 ms-3 d-flex justify-content-between align-items-center"
+   style="width: 200px; background-color: #08df57; border-color: #08df57; transition: transform 0.3s ease;"
+   onmouseover="this.style.transform='scale(1.1)'"
+       onmouseout="this.style.transform='scale(1)'">
+  <span class="text-white" >Cape Comorin Media</span>
+  
+  <!-- <span class="d-flex flex-column align-items-center ms-3">
     <img src="img/socialmedia.png" alt="YouTube" width="40" height="20" class="mb-1">
-  </span>
+  </span> -->
 </a>
+
+<a href="https://wa.me/918300767907" target="_blank" class="btn text-success ms-3 p-0" style="display: inline-block; overflow: hidden;">
+  <img src="./img/wtsapp.png" alt="WhatsApp"
+       style="height: 120px; width: auto; transition: transform 0.3s ease;"
+       onmouseover="this.style.transform='scale(1.1)'"
+       onmouseout="this.style.transform='scale(1)'">
+</a>
+  
 
 
 
@@ -105,7 +123,7 @@
 
 
         <!-- Full Screen Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1">
+        <!-- <div class="modal fade" id="searchModal" tabindex="-1">
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content" style="background: rgba(29, 29, 39, 0.7);">
                     <div class="modal-header border-0">
@@ -119,7 +137,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Full Screen Search End -->
 
 
@@ -593,6 +611,8 @@
                 <h5 class="text-white mb-4">Popular Links</h5>
                 <a class="btn btn-link" href="about.html">About Me</a>
                 <a class="btn btn-link" href="contact.html">Contact</a>
+
+    
                 <!-- <a class="btn btn-link" href="#">Privacy Policy</a>
                 <a class="btn btn-link" href="#">Terms & Conditions</a>
                 <a class="btn btn-link" href="#">Career</a> -->
@@ -623,19 +643,30 @@
             <div class="col-md-6 col-lg-3">
                 <h5 class="text-white mb-4">Newsletter</h5>
                 <p>Subscribe to get updates on our latest projects and internships.</p>
-                <div class="d-flex pt-2">
+
+                <div class="d-flex ">
+                    
                     <!-- <a class="btn btn-outline-light btn-social" href="#" target="_blank"><i class="fab fa-twitter"></i></a> -->
                     <a class="btn btn-outline-light btn-social" href="https://m.facebook.com/capecomorinmedia/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <!-- <a class="btn btn-outline-light btn-social" href="#" target="_blank"><i class="fab fa-youtube"></i></a> -->
+                    
                     <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/ccmpvt.ltd?igsh=OTd2NmN6Mzd4ejZp" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/cape-comorin-media-private-limited/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="#" target="_blank"><i class="fab fa-youtube"></i></a>
                 </div>
-                <!-- <div class="position-relative w-100 mt-3">
-                    <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email" placeholder="Your Email" style="height: 48px;">
+ 
+                <div class="position-relative w-100 mt-0">
+<a href="https://wa.me/918300767907" target="_blank" class="btn" style="display: inline-block; overflow: hidden;">
+  <img src="./img/wtsapp.png" alt="WhatsApp"
+       style="height: 150px; width: auto; transition: transform 0.3s ease;"
+       onmouseover="this.style.transform='scale(1.1)'"
+       onmouseout="this.style.transform='scale(1)'">
+</a>
+
+                <!-- <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="email" placeholder="Your Email" style="height: 48px;">
                     <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2">
                         <i class="fa fa-paper-plane text-primary fs-4"></i>
-                    </button>
-                </div> -->
+                    </button> -->
+                </div>
             </div>
         </div>
     </div>
